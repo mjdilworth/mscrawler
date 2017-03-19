@@ -9,12 +9,12 @@ import (
 	"github.com/gin-gonic/contrib/secure"
 	"github.com/gin-gonic/gin"
 	"github.com/kabukky/httpscerts"
-	"github.com/mjdilworth/stringutil"
+	//"github.com/mjdilworth/stringutil"
 )
 
 func main() {
 	fmt.Printf("Hi dude\n")
-	fmt.Printf(stringutil.Reverse("mjd"))
+	//fmt.Printf(stringutil.Reverse("mjd"))
 
 	// Check if the cert files are available.
 	err := httpscerts.Check("cert.pem", "key.pem")
